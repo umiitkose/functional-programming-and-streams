@@ -10,12 +10,6 @@
   <name>functional-programming-and-streams</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -23,6 +17,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+
   </dependencies>
   <build>
     <plugins>
@@ -30,11 +30,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>23</source>
-          <target>23</target>
+          <source>24</source>
+          <target>24</target>
           <compilerArgs>--enable-preview</compilerArgs>
         </configuration>
       </plugin>
     </plugins>
   </build>
+
 </project>
