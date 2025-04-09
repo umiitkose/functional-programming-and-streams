@@ -16,5 +16,6 @@
         <toc-element topic="Streams.md">
             <toc-element topic="Optional.md"/>
         </toc-element>
+        <toc-element topic="Stream-Gatherer.md"/>
     </toc-element>
 </instance-profile>
