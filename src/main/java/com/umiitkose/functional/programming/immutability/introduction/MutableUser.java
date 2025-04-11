@@ -46,4 +46,9 @@ public class MutableUser {
                 ", age=" + age +
                 '}';
     }
+
+    public MutableUser getMutableUser() {
+        return this;
+    }
+
 }

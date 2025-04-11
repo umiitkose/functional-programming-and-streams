@@ -9,5 +9,6 @@ public class Main {
 
         events.stream().filter(Event::isOnline)
                 .forEach(e -> System.out.println(e.getEventName() + " - " + e.getEventDate()));
+
     }
 }

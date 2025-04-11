@@ -11,6 +11,7 @@ public class ImmutableUser {
         this.age = age;
     }
 
+
     public String getName() {
         return name;
     }
@@ -37,5 +38,10 @@ public class ImmutableUser {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public MutableUser getMutableUser(MutableUser mutableUser) {
+        mutableUser.setAge(age);
+        return mutableUser.getMutableUser();
     }
 }
