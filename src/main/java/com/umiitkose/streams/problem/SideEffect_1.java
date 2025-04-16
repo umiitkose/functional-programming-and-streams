@@ -1,7 +1,9 @@
-package com.umiitkose.events.fp;
+package com.umiitkose.streams.problem;
 
 import com.umiitkose.events.data.Events;
-import com.umiitkose.events.model.Event;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SideEffect_1 {
     void main() {

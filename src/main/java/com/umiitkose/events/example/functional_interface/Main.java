@@ -1,6 +1,6 @@
 import com.umiitkose.events.example.functional_interface.Consumer;
+import com.umiitkose.events.example.functional_interface.StringFunction;
 
-;
 
 void main() {
     Consumer<String> newConsumer = System.out::println;
@@ -9,10 +9,13 @@ void main() {
 
     stringConsumer.accept("HelloWord");
 
+    StringFunction stringFunction = (String s) -> System.out.println("String: " + s);
+    stringFunction.convert("HelloWorld");
+
 }
 
 
 
-private Consumer<String> test() {
+public Consumer<String> test() {
     return (String s) -> System.out.println("Log Basılıyor.");
 }

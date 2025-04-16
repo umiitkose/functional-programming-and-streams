@@ -9,8 +9,6 @@ public class Performance {
     void main() {
         List<List<Integer>> intList = generateIntegerLists();
         List<Integer> millionData = intList.getFirst();
-        List<Integer> thousandData = intList.get(1);
-        List<Integer> tenThousandData = intList.getLast();
 
         long l = System.currentTimeMillis();
         int sum = 0;
@@ -18,7 +16,6 @@ public class Performance {
             sum += i;
         }
         System.out.println(sum);
-        System.out.println(sum / millionData.size());
         long l2 = System.currentTimeMillis();
         System.out.println("0 : " + (l2 - l));
 

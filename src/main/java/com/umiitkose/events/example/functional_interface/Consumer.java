@@ -11,5 +11,5 @@ public interface Consumer<T> {
         };
     }
 
-    ;
+
 }

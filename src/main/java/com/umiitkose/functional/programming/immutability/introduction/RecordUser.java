@@ -26,3 +26,4 @@ public record RecordUser(String name, int age) {
     body: like any other class or interface body
 
  */
+

@@ -1,4 +1,4 @@
-package com.umiitkose.events.model;
+package com.umiitkose.events.data.model;
 
 public class Event {
 

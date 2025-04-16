@@ -3,7 +3,7 @@ package com.umiitkose.events.data;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.umiitkose.events.model.Event;
+import com.umiitkose.events.data.model.Event;
 
 import java.io.FileReader;
 import java.io.IOException;
